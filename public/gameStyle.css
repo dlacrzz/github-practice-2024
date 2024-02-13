@@ -1,0 +1,24 @@
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#middle {
+    margin-top: 50px;
+}
+
+
+.mole {
+    width: 100px;
+    height: 100px;
+    display: none;
+}
